@@ -41,3 +41,17 @@ In real-world use, MLPs fit tabular baselines, CNNs fit image inspection and cla
 1. The available Fashion-MNIST CSV files contain **1,000 training samples** and **1,000 test samples** rather than the full official dataset size.
 2. The RNN experiment uses the first **250,000 characters** from Tiny Shakespeare to keep notebook runtime manageable on CPU.
 3. Part D (DCGAN) is optional bonus work and is not included in this submission.
+
+## How to Run
+
+1. Install the required packages from `requirements.txt`.
+2. Run `deep-learning-architectures-training.ipynb` to train the MLP, CNN, and RNN/LSTM models and regenerate the saved outputs in the `results/` folder.
+3. Open `deep-learning-architectures.ipynb` to view the summarized results, plots, confusion matrix, and reflection.
+
+## Files
+
+- `deep-learning-architectures-training.ipynb` — full implementation, training, evaluation, and output generation
+- `deep-learning-architectures.ipynb` — summary/results notebook
+- `deep_learning_architectures_training.py` — backup script version of the training code
+- `data/` — local dataset files used in the notebook
+- `results/` — saved metrics, plots, confusion matrix, example predictions, and generated text
