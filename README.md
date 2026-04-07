@@ -3,7 +3,8 @@
 This repository contains my submission for **M11: Exploring Deep Learning Architectures**.
 
 ## Repository Contents
-- `deep-learning-architectures.ipynb` — main notebook for Parts A-E
+- deep-learning-architectures.ipynb = report/results notebook
+- deep-learning-architectures-training.ipynb = actual training and evaluation notebook
 - `data/` — local dataset files used by the notebook
 - `results/` — exported plots, confusion matrix, and sample predictions
 - `requirements.txt` — Python packages used in this project
